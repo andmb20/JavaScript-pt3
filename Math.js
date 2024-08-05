@@ -5,6 +5,7 @@
     - PI / 3.141592653589793
     - ceil / teto -> arredondar para cima
     - floor / chão -> arredondar para baixo
+    - random() / retorna um número aleatório entre 0 e 1
 
 */
  // pow
@@ -26,3 +27,7 @@ console.log(resultceil)
 //floor
 const resultfloor = Math.floor(3.14)
 console.log(resultfloor)
+
+//random
+const resultrandom = Math.random()
+console.log(resultrandom)
