@@ -1,5 +1,5 @@
 /*
-    Operadores Aritiméticos
+    Operadores Aritiméticos (Arithmetic Operators)
     + -> Adição (Addition)
     - -> Subtração (Subtraction)
     * -> Multiplicação (Multiplication)
