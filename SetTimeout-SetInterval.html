@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>SetTimeout SetInterval</title>
+</head>
+
+<body>
+    <h1>0</h1>
+    <button onclick="start()">start</button>
+    <button onclick="stop()">stop</button>
+</body>
+<script>
+    /*
+        setTimeout -> Executa uma vez
+        setInterval -> Executa infinitas  vezes
+            timeout = dado em milisegundos -> 1 segundo = 1000 milisegundos
+            clearInterval -> Vai pausar o setInterval
+
+            //arrow function
+    setTimeout(() => {
+        // executa o que estiver aqui
+    }, timeout);
+
+    //escrevendo function
+    setTimeout(function () {
+        // executa o que estiver aqui
+        alert("Funcionou")
+    }, 3000);
+    //função separada e quando der o tempo executa
+    function myFunction() {
+        // executa o que estiver aqui
+
+    }
+    setTimeout(myFunction, timeout);
+
+    */
+
+    setTimeout(function () {
+        alert("Funcionou")
+    }, 3000);
+
+
+</script>
+
+</html>
